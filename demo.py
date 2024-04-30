@@ -1,7 +1,7 @@
 from uniai import aliChatLLM, zhipuChatLLM
 
-# chatLLM=aliChatLLM("qwen-turbo")
-chatLLM=zhipuChatLLM("glm-3-turbo")
+# chatLLM = aliChatLLM("qwen-turbo")
+chatLLM = zhipuChatLLM("glm-3-turbo")
 
 content = "请用一个成语介绍你自己"
 messages = [{"role": "user", "content": content}]
