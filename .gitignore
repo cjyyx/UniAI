@@ -1,0 +1,8 @@
+**/__pycache__/**
+**/build/**
+**/**.egg-info/**
+**/data/**
+**/Backup/**
+test.txt
+temp.txt
+log.txt
