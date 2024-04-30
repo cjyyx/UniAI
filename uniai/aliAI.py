@@ -14,7 +14,7 @@ def aliChatLLM(model_name, api_key=None):
     - qwen-turbo
     - qwen-max
     """
-    api_key = os.environ.get("ALI_API_KEY", api_key)
+    api_key = os.environ.get("ALI_AI_API_KEY", api_key)
 
     def chatLLM(
         messages: list,
