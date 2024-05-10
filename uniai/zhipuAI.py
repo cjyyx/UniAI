@@ -9,7 +9,7 @@ def zhipuChatLLM(model_name, api_key=None):
     - glm-3-turbo"
     - glm-4
     """
-    api_key = os.environ.get("ZHIPU_API_KEY", api_key)
+    api_key = os.environ.get("ZHIPU_AI_API_KEY", api_key)
     client = ZhipuAI(api_key=api_key)
 
     def chatLLM(
